@@ -1,0 +1,27 @@
+{
+  "name": "comparador-react-pro",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "js-yaml": "^4.1.0",
+    "pdfjs-dist": "^4.8.69",
+    "mammoth": "^1.8.0",
+    "@xenova/transformers": "^2.16.1",
+    "tesseract.js": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.10"
+  }
+}

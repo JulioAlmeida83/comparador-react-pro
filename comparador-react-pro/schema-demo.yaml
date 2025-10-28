@@ -1,0 +1,18 @@
+nome: "TR - Serviços c/ Dedicação Exclusiva (Lei 14.133) - Demo"
+versao: "1.0-demo"
+idioma: "pt-BR"
+campos:
+  - id: objeto
+    rotulos: ["Objeto", "Descrição do Objeto"]
+    obrigatorio: true
+    tipo: texto
+    min_palavras: 10
+  - id: vigencia
+    rotulos: ["vigência", "prazo de vigência"]
+    obrigatorio: true
+    tipo: texto
+    regex: "(\\d+).*(dias|meses|anos)"
+  - id: forma_selecao
+    rotulos: ["Forma de seleção", "LICITAÇÃO", "modalidade"]
+    obrigatorio: true
+    tipo: texto
